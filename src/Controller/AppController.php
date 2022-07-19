@@ -19,6 +19,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use Cake\Controller\Controller;
+use Crud\Controller\ControllerTrait;
 
 /**
  * Application Controller
@@ -30,6 +31,8 @@ use Cake\Controller\Controller;
  */
 class AppController extends Controller
 {
+    use ControllerTrait;
+
     /**
      * Initialization hook method.
      *
@@ -56,32 +59,41 @@ class AppController extends Controller
             'actions' => [
                 'Crud.Index',
                 'Crud.View',
-                'Crud.Add',
-                'Crud.Edit',
-                'Crud.Delete',
+                'add' => [
+                    'className' => 'Crud.Add',
+                    'messages' => [
+                        'success' => [
+                            'text' => '{name} Salvo com Sucesso',
+                        ],
+                        'error' => [
+                            'text' => 'Não foi possivel salvar {name}',
+                        ],
+                    ],
+                ],
+                'edit' => [
+                    'className' => 'Crud.Edit',
+                    'messages' => [
+                        'success' => [
+                            'text' => '{name} Atualizado com Sucesso',
+                        ],
+                        'error' => [
+                            'text' => 'Não foi possivel atualizar o {name}',
+                        ],
+                    ],
+                ],
+                'delete' => [
+                    'className' => 'Crud.Delete',
+                    'messages' => [
+                        'success' => [
+                            'text' => '{name} Deletado com Sucesso',
+                        ],
+                        'error' => [
+                            'text' => 'Não foi possivel deletar o {name}',
+                        ],
+                    ],
+                ],
                 'Crud.Lookup',
             ],
-            'listeners' => [
-                'CrudView.View',
-                'Crud.Redirect',
-                'Crud.RelatedModels',
-                // If you need searching. Generally it's better to load these
-                // only in the controller for which you need searching.
-                // 'Crud.Search',
-                // 'CrudView.ViewSearch',
-            ]
         ]);
-    }
-
-    /**
-     * Before render callback.
-     *
-     * @param \Cake\Event\Event $event The beforeRender event.
-     * @return void
-     */
-    public function beforeRender(\Cake\Event\EventInterface $event)
-    {
-        if ($this->viewBuilder()->getClassName() === null)
-            $this->viewBuilder()->setClassName('CrudView\View\CrudView');
     }
 }
