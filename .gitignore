@@ -40,8 +40,6 @@ tests.sqlite
 .idea/*
 # NetBeans
 nbproject/*
-# Visual Studio Code
-.vscode
 # nova
 .nova
 # Sass preprocessor
