@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 /**
@@ -14,6 +15,7 @@ declare(strict_types=1);
  * @since     0.2.9
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace App\Controller;
 
 use Cake\Controller\Controller;
@@ -48,6 +50,38 @@ class AppController extends Controller
          * Enable the following component for recommended CakePHP form protection settings.
          * see https://book.cakephp.org/4/en/controllers/components/form-protection.html
          */
-        //$this->loadComponent('FormProtection');
+        $this->loadComponent('FormProtection');
+
+        $this->loadComponent('Crud.Crud', [
+            'actions' => [
+                'Crud.Index',
+                'Crud.View',
+                'Crud.Add',
+                'Crud.Edit',
+                'Crud.Delete',
+                'Crud.Lookup',
+            ],
+            'listeners' => [
+                'CrudView.View',
+                'Crud.Redirect',
+                'Crud.RelatedModels',
+                // If you need searching. Generally it's better to load these
+                // only in the controller for which you need searching.
+                // 'Crud.Search',
+                // 'CrudView.ViewSearch',
+            ]
+        ]);
+    }
+
+    /**
+     * Before render callback.
+     *
+     * @param \Cake\Event\Event $event The beforeRender event.
+     * @return void
+     */
+    public function beforeRender(\Cake\Event\EventInterface $event)
+    {
+        if ($this->viewBuilder()->getClassName() === null)
+            $this->viewBuilder()->setClassName('CrudView\View\CrudView');
     }
 }

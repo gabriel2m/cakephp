@@ -64,6 +64,10 @@ class Application extends BaseApplication
         }
 
         // Load more plugins here
+        $this->addPlugin('Crud');
+        $this->addPlugin('CrudView');
+        $this->addPlugin('BootstrapUI');
+        $this->addPlugin('Search');
     }
 
     /**
