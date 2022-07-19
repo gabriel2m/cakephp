@@ -1,0 +1,279 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CakePHP 4.4.2\n"
+"POT-Creation-Date: 2022-07-19 10:46-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./templates/Error/error400.php:39
+#: ./templates/Error/error500.php:43
+msgid "Error"
+msgstr "Erro"
+
+#: ./templates/Error/error400.php:40
+msgid "The requested address {0} was not found on this server."
+msgstr "O endereço solicitado {0} não foi encontrado neste servidor."
+
+#: ./templates/Error/error500.php:41
+#: ./vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php:361
+msgid "An Internal Error Has Occurred."
+msgstr "Ocorreu um erro interno."
+
+#: ./vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:462
+msgid "You are not authorized to access that location."
+msgstr "Você não está autorizado a acessar esse local."
+
+#: ./vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php:359
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: ./vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:390
+msgid "Missing or incorrect CSRF cookie type."
+msgstr "Tipo de cookie CSRF ausente ou incorreto."
+
+#: ./vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:394
+msgid "Missing or invalid CSRF cookie."
+msgstr "Cookie CSRF ausente ou inválido."
+
+#: ./vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:417
+#: ./vendor/cakephp/cakephp/src/Http/Middleware/SessionCsrfProtectionMiddleware.php:265
+msgid "CSRF token from either the request body or request headers did not match or is missing."
+msgstr "O token CSRF do corpo da solicitação ou dos cabeçalhos da solicitação não correspondeu ou está ausente."
+
+#: ./vendor/cakephp/cakephp/src/Http/Middleware/SessionCsrfProtectionMiddleware.php:247
+msgid "Missing or incorrect CSRF session key"
+msgstr "Chave de sessão CSRF ausente ou incorreta"
+
+#: ./vendor/cakephp/cakephp/src/Http/Response.php:1489
+msgid "The requested file contains `..` and will not be read."
+msgstr "O arquivo solicitado contém `..` e não será lido."
+
+#: ./vendor/cakephp/cakephp/src/Http/Response.php:1497
+msgid "The requested file was not found"
+msgstr "O arquivo solicitado não foi encontrado"
+
+#: ./vendor/cakephp/cakephp/src/I18n/Number.php:116
+msgid "{0,number,#,###.##} KB"
+msgstr "{0,number,#,###.##} KB"
+
+#: ./vendor/cakephp/cakephp/src/I18n/Number.php:118
+msgid "{0,number,#,###.##} MB"
+msgstr "{0,number,#,###.##} MB"
+
+#: ./vendor/cakephp/cakephp/src/I18n/Number.php:120
+msgid "{0,number,#,###.##} GB"
+msgstr "{0,number,#,###.##} GB"
+
+#: ./vendor/cakephp/cakephp/src/I18n/Number.php:122
+msgid "{0,number,#,###.##} TB"
+msgstr "{0,number,#,###.##} TB"
+
+#: ./vendor/cakephp/cakephp/src/I18n/Number.php:114
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "{0,number,integer} Byte"
+msgstr[1] "{0,number,integer} Bytes"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:86
+msgid "{0} from now"
+msgstr "{0} a partir de agora"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:86
+msgid "{0} ago"
+msgstr "{0} atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:89
+msgid "{0} depois"
+msgstr ""
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:89
+msgid "{0} antes"
+msgstr ""
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:120
+msgid "just now"
+msgstr "agora mesmo"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:157
+msgid "about a second ago"
+msgstr "cerca de um segundo atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:158
+msgid "about a minute ago"
+msgstr "cerca de um minuto atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:159
+msgid "about an hour ago"
+msgstr "cerca de uma hora atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:160
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:370
+msgid "about a day ago"
+msgstr "cerca de um dia atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:161
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:371
+msgid "about a week ago"
+msgstr "cerca de uma semana atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:162
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:372
+msgid "about a month ago"
+msgstr "cerca de um mês atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:163
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:373
+msgid "about a year ago"
+msgstr "cerca de um ano atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:174
+msgid "in about a second"
+msgstr "em cerca de um segundo"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:175
+msgid "in about a minute"
+msgstr "em cerca de um minuto"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:176
+msgid "in about an hour"
+msgstr "em cerca de uma hora"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:177
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:384
+msgid "in about a day"
+msgstr "em cerca de um dia"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:178
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:385
+msgid "in about a week"
+msgstr "em cerca de uma semana"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:179
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:386
+msgid "in about a month"
+msgstr "em cerca de um mês"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:180
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:387
+msgid "in about a year"
+msgstr "em cerca de um ano"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:342
+msgid "today"
+msgstr "hoje"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:409
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:410
+msgid "on %s"
+msgstr "em %s"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:53
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:132
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:354
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} ano"
+msgstr[1] "{0} anos"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:57
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:135
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:357
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} mês"
+msgstr[1] "{0} meses"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:63
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:138
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:360
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} semana"
+msgstr[1] "{0} semanas"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:65
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:141
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:363
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} dia"
+msgstr[1] "{0} dias"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:70
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:144
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} hora"
+msgstr[1] "{0} horas"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:74
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:147
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} minuto"
+msgstr[1] "{0} minutos"
+
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:78
+#: ./vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php:150
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} segundo"
+msgstr[1] "{0} segundos"
+
+#: ./vendor/cakephp/cakephp/src/ORM/RulesChecker.php:63
+msgid "This value is already in use"
+msgstr "Este valor já está em uso"
+
+#: ./vendor/cakephp/cakephp/src/ORM/RulesChecker.php:110
+msgid "This value does not exist"
+msgstr "Este valor não existe"
+
+#: ./vendor/cakephp/cakephp/src/ORM/RulesChecker.php:232
+msgid "Cannot modify row: a constraint for the `{0}` association fails."
+msgstr "Não é possível modificar a linha: uma restrição para a associação `{0}` falhou."
+
+#: ./vendor/cakephp/cakephp/src/ORM/RulesChecker.php:270
+msgid "The count does not match {0}{1}"
+msgstr "A contagem não corresponde a {0}{1}"
+
+#: ./vendor/cakephp/cakephp/src/Utility/Text.php:924
+msgid "and"
+msgstr "e"
+
+#: ./vendor/cakephp/cakephp/src/Validation/Validator.php:2539
+msgid "This field is required"
+msgstr "Este campo é obrigatório"
+
+#: ./vendor/cakephp/cakephp/src/Validation/Validator.php:2559
+#: ./vendor/cakephp/cakephp/src/View/Form/ArrayContext.php:249
+msgid "This field cannot be left empty"
+msgstr "Este campo não pode ficar vazio"
+
+#: ./vendor/cakephp/cakephp/src/Validation/Validator.php:2711
+msgid "The provided value is invalid"
+msgstr "O valor fornecido é inválido"
+
+#: ./vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:981
+msgid "Edit {0}"
+msgstr "Editar {0}"
+
+#: ./vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:983
+msgid "New {0}"
+msgstr "Novo {0}"
+
+#: ./vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:1921
+msgid "Submit"
+msgstr "Enviar"
+
