@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51984583aa214bdc894c8e4f6e84c9b8",
+    "content-hash": "7f0e927bd7809b91b6443dc1b4f66ca5",
     "packages": [
         {
             "name": "cakephp/cakephp",
@@ -355,62 +355,6 @@
             "time": "2022-05-24T11:56:16+00:00"
         },
         {
-            "name": "friendsofcake/bootstrap-ui",
-            "version": "3.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfCake/bootstrap-ui.git",
-                "reference": "8fca5c21105899698f29ec1dd00689e05b4822be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfCake/bootstrap-ui/zipball/8fca5c21105899698f29ec1dd00689e05b4822be",
-                "reference": "8fca5c21105899698f29ec1dd00689e05b4822be",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/cakephp": "^4.0"
-            },
-            "require-dev": {
-                "cakephp/bake": "^2.1",
-                "cakephp/cakephp-codesniffer": "^4.1",
-                "phpunit/phpunit": "^8.5 || ^9.3"
-            },
-            "type": "cakephp-plugin",
-            "autoload": {
-                "psr-4": {
-                    "BootstrapUI\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jad Bitar",
-                    "homepage": "http://jadb.io",
-                    "role": "Author"
-                },
-                {
-                    "name": "Others",
-                    "homepage": "https://github.com/friendsofcake/bootstrap-ui/graphs/contributors"
-                }
-            ],
-            "description": "Bootstrap front-end framework support for CakePHP",
-            "homepage": "http://github.com/friendsofcake/bootstrap-ui",
-            "keywords": [
-                "bootstrap",
-                "cakephp",
-                "front-end"
-            ],
-            "support": {
-                "issues": "http://github.com/friendsofcake/bootstrap-ui/issues",
-                "source": "http://github.com/friendsofcake/bootstrap-ui"
-            },
-            "time": "2022-02-23T13:02:28+00:00"
-        },
-        {
             "name": "friendsofcake/crud",
             "version": "6.1.1",
             "source": {
@@ -490,133 +434,6 @@
                 "wiki": "http://crud.readthedocs.org/en/latest/"
             },
             "time": "2022-07-09T16:38:52+00:00"
-        },
-        {
-            "name": "friendsofcake/crud-view",
-            "version": "0.40.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfCake/crud-view.git",
-                "reference": "ec3cb6506c9599b381664bbd0ea35a0d75efd7e9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfCake/crud-view/zipball/ec3cb6506c9599b381664bbd0ea35a0d75efd7e9",
-                "reference": "ec3cb6506c9599b381664bbd0ea35a0d75efd7e9",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/cakephp": "^4.0",
-                "friendsofcake/bootstrap-ui": "^3.0",
-                "friendsofcake/crud": "^6.0"
-            },
-            "require-dev": {
-                "friendsofcake/cakephp-test-utilities": "^2.0",
-                "markstory/asset_compress": "^4.0",
-                "phpunit/phpunit": "~8.5.0 || ^9.3"
-            },
-            "type": "cakephp-plugin",
-            "autoload": {
-                "psr-4": {
-                    "CrudView\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christian Winther",
-                    "homepage": "http://cakephp.nu/",
-                    "role": "Author"
-                },
-                {
-                    "name": "Jose Diaz-Gonzalez",
-                    "homepage": "http://josediazgonzalez.com/",
-                    "role": "Author"
-                }
-            ],
-            "description": "View layer for CRUD",
-            "homepage": "https://github.com/FriendsOfCake/crud-view",
-            "keywords": [
-                "bake",
-                "cake",
-                "cakephp",
-                "create",
-                "crud",
-                "delete",
-                "retrieve",
-                "scaffold",
-                "scaffolding",
-                "update"
-            ],
-            "support": {
-                "irc": "irc://irc.freenode.org/friendsofcake",
-                "issues": "https://github.com/FriendsOfCake/crud-view/issues",
-                "source": "https://github.com/FriendsOfCake/crud-view",
-                "wiki": "http://cakephp.nu/cakephp-crud/"
-            },
-            "time": "2022-03-10T12:12:11+00:00"
-        },
-        {
-            "name": "friendsofcake/search",
-            "version": "6.2.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfCake/search.git",
-                "reference": "760d996aed32791b372bac9fc3c4adf206334b24"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfCake/search/zipball/760d996aed32791b372bac9fc3c4adf206334b24",
-                "reference": "760d996aed32791b372bac9fc3c4adf206334b24",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/cakephp": "^4.0"
-            },
-            "require-dev": {
-                "cakephp/bake": "^2.3",
-                "cakephp/cakephp-codesniffer": "^4.0",
-                "cakephp/twig-view": "^1.1.1",
-                "muffin/webservice": "^3.0",
-                "phpunit/phpunit": "~8.5.0 || ^9.3"
-            },
-            "type": "cakephp-plugin",
-            "autoload": {
-                "psr-4": {
-                    "Search\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christian Winther",
-                    "role": "Author"
-                },
-                {
-                    "name": "ADmad",
-                    "homepage": "https://github.com/admad",
-                    "role": "Contributor"
-                }
-            ],
-            "description": "CakePHP Search plugin using PRG pattern",
-            "homepage": "https://github.com/FriendsOfCake/search",
-            "keywords": [
-                "cakephp",
-                "filter",
-                "prg",
-                "search"
-            ],
-            "support": {
-                "issues": "https://github.com/FriendsOfCake/search/issues",
-                "source": "https://github.com/FriendsOfCake/search"
-            },
-            "time": "2022-02-16T15:58:31+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
