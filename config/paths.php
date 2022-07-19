@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
@@ -29,6 +30,7 @@ if (!defined('DS')) {
  * The full path to the directory which holds "src", WITHOUT a trailing DS.
  */
 define('ROOT', dirname(__DIR__));
+define('ENVFILE', ROOT . DS . '.env');
 
 /*
  * The actual directory name for the application directory. Normally
